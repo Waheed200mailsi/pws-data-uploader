@@ -263,7 +263,7 @@ do
 			else
 				RAINTOTAL_TODAY=0
 			fi
-			PREV_HOUR=$HOUR
+			HOUR_PREV=$HOUR
 
 			# hourly rain rate
 			if [ "$RAINTOTAL_PREV_UPDATE" != "0" ]; then
